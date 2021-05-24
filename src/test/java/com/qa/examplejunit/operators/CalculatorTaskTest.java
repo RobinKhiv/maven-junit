@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class CalculatorTaskTest {
 	
-	@Test
+	@Test 
 	public void addTest() {
 		int result = CalculatorTask.add(12, 3); 
 		
@@ -18,6 +18,6 @@ public class CalculatorTaskTest {
 		
 		// Expectation, actual
 		assertEquals( 15, result);
-		
+		 
 	}
 }

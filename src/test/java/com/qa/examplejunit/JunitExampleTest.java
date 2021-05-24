@@ -7,7 +7,7 @@ import com.qa.examplejunit.house.House;
 public class JunitExampleTest {
 	@Test
 	public void test1() {
-		System.out.println("Hello World");
+		System.out.println("Hello World"); 
 		
 	}
 	@Test

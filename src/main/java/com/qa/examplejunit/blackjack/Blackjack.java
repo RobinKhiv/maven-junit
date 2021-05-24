@@ -1,7 +1,7 @@
 package com.qa.examplejunit.blackjack;
 
 public class Blackjack {
-    
+     
     public static int play(int dealer, int player) {
         if (dealer > 21 && player > 21) {
             return 0;
@@ -12,6 +12,6 @@ public class Blackjack {
         }
         return Math.max(dealer, player);
     }
-    
+     
 }
 
